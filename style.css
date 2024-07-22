@@ -1,0 +1,53 @@
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.hero, .footer{
+    background-color: #1F2937;
+}
+
+.hero-main-txt{
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+a, .hero-txt{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.insc{
+    background-color: #3882F6;
+}
+
+.su{
+    background-color: #3882F6;
+}
+
+.info-title{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.quote-section{
+    background-color: #E5E7EB;
+}
+
+.quote{
+    font-size: 36px;
+    font: light italic;
+    color: #1F2937;
+}

@@ -1,3 +1,9 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
 .logo{
     font-size: 24px;
     color: #F9FAF8;
@@ -13,7 +19,7 @@ a{
     text-decoration: none;
 }
 
-.hero, .footer{
+.hero, .header, .footer{
     background-color: #1F2937;
 }
 
@@ -50,4 +56,77 @@ a, .hero-txt{
     font-size: 36px;
     font: light italic;
     color: #1F2937;
+}
+
+/* header and hero*/
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    padding-left: 50px;
+}
+
+.links-header{
+    display: flex;
+    gap: 16px;
+    padding-right: 50px;
+}
+
+.hero{
+    padding: 45px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    gap: 8px;
+}
+
+.insc{
+    width: 100px;
+    height: 35px;
+    border:0;
+    border-radius: 12px;
+}
+
+/*info section*/
+.info-title{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.information{
+    padding: 75px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.info-img img{
+    max-width: 200px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+}
+
+.info-txt{
+    text-align: center;
+}
+
+/*quote section*/
+.quote-section{
+    padding: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote-name{
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: end;
 }

@@ -1,4 +1,6 @@
-.body{
+/*general styles*/
+body{
+    margin: 0;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -6,6 +8,7 @@
 
 .logo{
     font-size: 24px;
+    font-weight: 800;
     color: #F9FAF8;
 }
 
@@ -34,11 +37,7 @@ a, .hero-txt{
     color: #E5E7EB;
 }
 
-.insc{
-    background-color: #3882F6;
-}
-
-.su{
+.hero-button, .su, .su-button{
     background-color: #3882F6;
 }
 
@@ -62,32 +61,53 @@ a, .hero-txt{
 .header{
     display: flex;
     justify-content: space-between;
-    padding: 15px;
-    padding-left: 50px;
+    padding-top: 15px;
 }
 
 .links-header{
     display: flex;
     gap: 16px;
-    padding-right: 50px;
+}
+
+.hero, .header{
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .hero{
-    padding: 45px;
-    padding-left: 100px;
-    padding-right: 100px;
     display: flex;
-    flex-direction: column;
+    align-items: center;
     justify-content: space-between;
-    align-content: center;
-    gap: 8px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    gap: 20px;
 }
 
-.insc{
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    gap: 10px;
+    padding: 10px;
+}
+
+.hero-button{
     width: 100px;
     height: 35px;
     border:0;
-    border-radius: 12px;
+    border-radius: 10px;
+    color: white;
+}
+
+.hero-img img{
+    display: block;
+    flex: 1;
+    max-width: 500px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
 }
 
 /*info section*/
@@ -98,13 +118,15 @@ a, .hero-txt{
 
 .information{
     padding: 75px;
-    padding-top: 50px;
+    padding-top: 45px;
+    padding-bottom: 125px;
     display: flex;
     justify-content: center;
     gap: 52px;
 }
 
 .info-img img{
+    border-radius: 10px;
     max-width: 200px;
     max-height: 200px;
     width: auto;
@@ -113,20 +135,67 @@ a, .hero-txt{
 
 .info-txt{
     text-align: center;
+    padding-top: 10px;
 }
 
 /*quote section*/
 .quote-section{
+    text-align: left;
     padding: 120px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
 }
 
 .quote-name{
     font-weight: 700;
-    font-size: 20px;
+    font-size: 25px;
     padding-top: 10px;
     display: flex;
     justify-content: end;
+}
+
+/*sign up section*/
+.su{
+    color: white;
+    padding: 35px;
+    margin: 100px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.su-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 18px;
+}
+
+.su-title{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.su-button{
+    border-color: white;
+    border-radius: 10px;
+    border-style: solid;
+    width: 125px;
+    height: 40px;
+    font-weight: 700;
+    color:white;
+}
+
+/*footer section*/
+.footer{
+    font-size: 18px;
+    color: white;
+    padding: 40px;
 }
